@@ -1,0 +1,125 @@
+[gd_scene format=3 uid="uid://c1rdpvcbeak5f"]
+
+[ext_resource type="Script" uid="uid://cucr6fkx0txi7" path="res://entities/player/player.gd" id="1_3wlsy"]
+[ext_resource type="Texture2D" uid="uid://byva5q7jph363" path="res://assets/playable character/warrior/warrior_armed_idle/E/warrior_armed_idle_E_0.0_0.png" id="1_yqrof"]
+[ext_resource type="AnimationLibrary" uid="uid://bl0os2ajfx6rr" path="res://entities/player/animations/warrior_armed.res" id="2_sglur"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vewsg"]
+size = Vector2(12, 15)
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_8q4fm"]
+animation = &"warrior_armed/idle_E"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_np63p"]
+animation = &"warrior_armed/idle_N"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_gx6sm"]
+animation = &"warrior_armed/idle_SSW"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_yqrof"]
+animation = &"warrior_armed/idle_NNW"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_3wlsy"]
+animation = &"warrior_armed/idle_SWW"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_b2kln"]
+animation = &"warrior_armed/idle_NWW"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_we0b7"]
+animation = &"warrior_armed/idle_NEE"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_mtric"]
+animation = &"warrior_armed/idle_SEE"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0eo6o"]
+animation = &"warrior_armed/idle_W"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ttr27"]
+animation = &"warrior_armed/idle_S"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_13wue"]
+animation = &"warrior_armed/idle_SE"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_wy7bt"]
+animation = &"warrior_armed/idle_NW"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_geky7"]
+animation = &"warrior_armed/idle_SW"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_qwspa"]
+animation = &"warrior_armed/idle_NE"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_eyb6c"]
+animation = &"warrior_armed/idle_SSE"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_221hk"]
+animation = &"warrior_armed/idle_NNE"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_r633c"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_8q4fm")
+blend_point_0/pos = Vector2(1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_np63p")
+blend_point_1/pos = Vector2(0, -1)
+blend_point_2/node = SubResource("AnimationNodeAnimation_0eo6o")
+blend_point_2/pos = Vector2(-1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_ttr27")
+blend_point_3/pos = Vector2(0, 1)
+blend_point_4/node = SubResource("AnimationNodeAnimation_13wue")
+blend_point_4/pos = Vector2(0.7, 0.7)
+blend_point_5/node = SubResource("AnimationNodeAnimation_wy7bt")
+blend_point_5/pos = Vector2(-0.7, -0.7)
+blend_point_6/node = SubResource("AnimationNodeAnimation_geky7")
+blend_point_6/pos = Vector2(-0.7, 0.7)
+blend_point_7/node = SubResource("AnimationNodeAnimation_qwspa")
+blend_point_7/pos = Vector2(0.7, -0.7)
+blend_point_8/node = SubResource("AnimationNodeAnimation_eyb6c")
+blend_point_8/pos = Vector2(0.38, 0.92)
+blend_point_9/node = SubResource("AnimationNodeAnimation_221hk")
+blend_point_9/pos = Vector2(0.38, -0.92)
+blend_point_10/node = SubResource("AnimationNodeAnimation_gx6sm")
+blend_point_10/pos = Vector2(-0.38, 0.92)
+blend_point_11/node = SubResource("AnimationNodeAnimation_yqrof")
+blend_point_11/pos = Vector2(-0.38, -0.92)
+blend_point_12/node = SubResource("AnimationNodeAnimation_3wlsy")
+blend_point_12/pos = Vector2(-0.92, 0.38)
+blend_point_13/node = SubResource("AnimationNodeAnimation_b2kln")
+blend_point_13/pos = Vector2(-0.92, -0.38)
+blend_point_14/node = SubResource("AnimationNodeAnimation_we0b7")
+blend_point_14/pos = Vector2(0.92, -0.38)
+blend_point_15/node = SubResource("AnimationNodeAnimation_mtric")
+blend_point_15/pos = Vector2(0.92, 0.38)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_yqrof"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_pacje"]
+states/Idle/node = SubResource("AnimationNodeBlendSpace2D_r633c")
+states/Idle/position = Vector2(388, 87.580246)
+states/Start/position = Vector2(181.33333, 86.44444)
+transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_yqrof")]
+
+[node name="Player" type="CharacterBody2D" unique_id=2118456967]
+motion_mode = 1
+script = ExtResource("1_3wlsy")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1373460799]
+zoom = Vector2(3.5, 3.5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2014983269]
+position = Vector2(0, -2.5)
+shape = SubResource("RectangleShape2D_vewsg")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=508612548]
+libraries/warrior_armed = ExtResource("2_sglur")
+
+[node name="AnimationTree" type="AnimationTree" parent="." unique_id=928836109]
+active = false
+tree_root = SubResource("AnimationNodeStateMachine_pacje")
+anim_player = NodePath("../AnimationPlayer")
+parameters/Idle/blend_position = Vector2(0, 0)
+
+[node name="Pivot" type="Node2D" parent="." unique_id=697238578]
+
+[node name="Sprite2D" type="Sprite2D" parent="Pivot" unique_id=1293489996]
+texture = ExtResource("1_yqrof")

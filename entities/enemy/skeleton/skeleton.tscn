@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cu76sd6w5lbwx"]
+
+[ext_resource type="Script" uid="uid://cgqqq6w0wtdom" path="res://entities/enemy/skeleton/skeleton.gd" id="1_k2lsm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w7bav"]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_k2lsm"]
+
+[node name="Skeleton" type="CharacterBody2D" unique_id=965545260]
+script = ExtResource("1_k2lsm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1092029177]
+shape = SubResource("RectangleShape2D_w7bav")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=45318725]
+
+[node name="AnimationTree" type="AnimationTree" parent="." unique_id=445222824]
+tree_root = SubResource("AnimationNodeStateMachine_k2lsm")
+anim_player = NodePath("../AnimationPlayer")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1682391017]

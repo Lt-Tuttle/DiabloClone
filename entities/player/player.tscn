@@ -12,7 +12,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Pivot/Sprite2D:hframes")
+tracks/0/path = NodePath("Sprite2D:hframes")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -24,7 +24,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Pivot/Sprite2D:vframes")
+tracks/1/path = NodePath("Sprite2D:vframes")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -36,7 +36,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Pivot/Sprite2D:frame")
+tracks/2/path = NodePath("Sprite2D:frame")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -237,6 +237,7 @@ script = ExtResource("1_3wlsy")
 speed = 150.0
 
 [node name="DebugLabel" type="Label" parent="." unique_id=576083423]
+visible = false
 offset_left = -60.0
 offset_top = -80.0
 offset_right = -24.0
@@ -263,7 +264,5 @@ anim_player = NodePath("../AnimationPlayer")
 parameters/Idle/blend_position = Vector2(0, 0)
 parameters/Walk/blend_position = Vector2(0, 0)
 
-[node name="Pivot" type="Node2D" parent="." unique_id=697238578]
-
-[node name="Sprite2D" type="Sprite2D" parent="Pivot" unique_id=1293489996]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1293489996]
 texture = ExtResource("3_sglur")

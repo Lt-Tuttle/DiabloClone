@@ -1,0 +1,543 @@
+{
+  "frames": {
+    "skeleton_special_death/E/skeleton_special_death_E_0.0_5.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 252,
+        "h": 205
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 252,
+        "h": 205
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SWW/skeleton_special_death_SWW_202.5_7.png": {
+      "frame": {
+        "x": 252,
+        "y": 0,
+        "w": 252,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 5,
+        "w": 252,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/E/skeleton_special_death_E_0.0_4.png": {
+      "frame": {
+        "x": 504,
+        "y": 0,
+        "w": 252,
+        "h": 202
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 5,
+        "w": 252,
+        "h": 202
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SWW/skeleton_special_death_SWW_202.5_6.png": {
+      "frame": {
+        "x": 756,
+        "y": 0,
+        "w": 252,
+        "h": 188
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 5,
+        "w": 252,
+        "h": 188
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/E/skeleton_special_death_E_0.0_7.png": {
+      "frame": {
+        "x": 1008,
+        "y": 0,
+        "w": 251,
+        "h": 229
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 0,
+        "w": 251,
+        "h": 229
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/E/skeleton_special_death_E_0.0_6.png": {
+      "frame": {
+        "x": 756,
+        "y": 188,
+        "w": 251,
+        "h": 223
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 251,
+        "h": 223
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SE/skeleton_special_death_SE_315.0_6.png": {
+      "frame": {
+        "x": 504,
+        "y": 202,
+        "w": 251,
+        "h": 207
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 251,
+        "h": 207
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SEE/skeleton_special_death_SEE_337.5_6.png": {
+      "frame": {
+        "x": 252,
+        "y": 204,
+        "w": 251,
+        "h": 188
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 4,
+        "w": 251,
+        "h": 188
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SE/skeleton_special_death_SE_315.0_7.png": {
+      "frame": {
+        "x": 0,
+        "y": 205,
+        "w": 250,
+        "h": 232
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 250,
+        "h": 232
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SSW/skeleton_special_death_SSW_247.5_5.png": {
+      "frame": {
+        "x": 250,
+        "y": 392,
+        "w": 250,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SWW/skeleton_special_death_SWW_202.5_4.png": {
+      "frame": {
+        "x": 0,
+        "y": 437,
+        "w": 250,
+        "h": 207
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 5,
+        "w": 250,
+        "h": 207
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SEE/skeleton_special_death_SEE_337.5_5.png": {
+      "frame": {
+        "x": 500,
+        "y": 409,
+        "w": 250,
+        "h": 191
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 4,
+        "w": 250,
+        "h": 191
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SSW/skeleton_special_death_SSW_247.5_4.png": {
+      "frame": {
+        "x": 500,
+        "y": 600,
+        "w": 248,
+        "h": 224
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 0,
+        "w": 248,
+        "h": 224
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SW/skeleton_special_death_SW_225.0_6.png": {
+      "frame": {
+        "x": 250,
+        "y": 616,
+        "w": 248,
+        "h": 202
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 248,
+        "h": 202
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SW/skeleton_special_death_SW_225.0_7.png": {
+      "frame": {
+        "x": 0,
+        "y": 644,
+        "w": 248,
+        "h": 202
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 248,
+        "h": 202
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SSW/skeleton_special_death_SSW_247.5_6.png": {
+      "frame": {
+        "x": 248,
+        "y": 818,
+        "w": 245,
+        "h": 206
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 3,
+        "w": 245,
+        "h": 206
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SSW/skeleton_special_death_SSW_247.5_7.png": {
+      "frame": {
+        "x": 0,
+        "y": 846,
+        "w": 244,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 244,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/SWW/skeleton_special_death_SWW_202.5_5.png": {
+      "frame": {
+        "x": 1259,
+        "y": 0,
+        "w": 244,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 5,
+        "w": 244,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/NW/skeleton_special_death_NW_135.0_7.png": {
+      "frame": {
+        "x": 1503,
+        "y": 0,
+        "w": 243,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 5,
+        "w": 243,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/NW/skeleton_special_death_NW_135.0_4.png": {
+      "frame": {
+        "x": 1259,
+        "y": 170,
+        "w": 241,
+        "h": 211
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 5,
+        "w": 241,
+        "h": 211
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/NW/skeleton_special_death_NW_135.0_5.png": {
+      "frame": {
+        "x": 1007,
+        "y": 229,
+        "w": 240,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 5,
+        "w": 240,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "skeleton_special_death/NW/skeleton_special_death_NW_135.0_6.png": {
+      "frame": {
+        "x": 1007,
+        "y": 433,
+        "w": 233,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 14,
+        "y": 5,
+        "w": 233,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "skeleton_special_death-1.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1746,
+      "h": 1050
+    },
+    "scale": 1
+  }
+}

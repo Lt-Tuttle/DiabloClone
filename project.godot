@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="DiabloClone"
-run/main_scene="uid://c1rdpvcbeak5f"
+run/main_scene="uid://d1o1qmw5858sh"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
 [display]
@@ -48,3 +48,5 @@ move_up={
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
